@@ -93,7 +93,7 @@ export default class ListItem extends React.Component
 
                     <Card style={styles.Card}>
                         <FadeInView>
-<div>
+
                     <Image
                         style={styles.stretch}
                         source={{
@@ -101,13 +101,12 @@ export default class ListItem extends React.Component
                         }}
 
                     />
-                    <div style={{ width:'auto',display: 'inline-grid'}}>
+
     <Text style={styles.title}>{this.props.item.product_name_fr}</Text>
 
     <Text style={styles.second}>{this.props.item.brands_tags}</Text>
     <Text style={styles.third}>{this.props.item.entry_dates_tags}</Text>
-                    </div>
-</div>
+      
                         </FadeInView>
                     </Card>
 
